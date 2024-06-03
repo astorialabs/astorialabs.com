@@ -1,53 +1,15 @@
-
-<!-- 
-    Background image by Josh Appel 
-    https://unsplash.com/photos/Koa3Geuo6TM
--->
-
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>Astoria Labs</title>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet"> 
-        <style>
-            html {
-                background: url('josh-appel-Koa3Geuo6TM-unsplash.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-attachment: fixed;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                height: 100%;
-            }
-            .welcome-text {
-                padding-left: 20px;
-                padding-right: 20px;
-                font-size: 5.9em;
-                color: greenyellow;
-                font-family: 'Oleo Script Swash Caps', cursive;
-                letter-spacing: 0.07em;
-                font-weight: 400;
-                text-align: center;
-            }
-            @media only screen and (max-width: 767px) {
-                html {
-                    background-image: url('small-josh-appel-Koa3Geuo6TM-unsplash.jpg');
-                }
-                .welcome-text {
-                    font-size: 2.9em;
-                }
-            }
-        </style>
-    </head>
-    <body>
-        <div class="welcome-text">
-            <h1>Astoria Labs</h1>
-        </div>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+    <title>Astoria Labs</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
