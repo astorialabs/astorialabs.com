@@ -1,5 +1,5 @@
 html {
-  background: url('assets/josh-appel-Koa3Geuo6TM-unsplash.jpg');
+  background: url('public/josh-appel-Koa3Geuo6TM-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -21,7 +21,7 @@ html {
 }
 @media only screen and (max-width: 767px) {
   html {
-    background-image: url('assets/small-josh-appel-Koa3Geuo6TM-unsplash.jpg');
+    background-image: url('public/small-josh-appel-Koa3Geuo6TM-unsplash.jpg');
   }
   .welcome-text {
     font-size: 2.9em;
